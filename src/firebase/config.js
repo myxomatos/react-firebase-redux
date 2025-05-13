@@ -7,12 +7,12 @@ import { getFirestore } from 'firebase/firestore/lite';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyCrues4N8AGikDgWXBFHAKAlBwnE55imcE",
+  authDomain: "react-her.firebaseapp.com",
+  projectId: "react-her",
+  storageBucket: "react-her.firebasestorage.app",
+  messagingSenderId: "755109525210",
+  appId: "1:755109525210:web:60db0ce1eab4a8c1f597e3"
 };
 
 // Initialize Firebase
