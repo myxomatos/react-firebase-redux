@@ -141,30 +141,27 @@ export const LoginPage = () => {
               xs={12}
               sm={6}
             >
-              <Button
-                disabled={isAuthenticating}
-                variant='contained'
-                fullWidth
-                onClick={onGoogleSignIn}
+              <Link
+                component={RouterLink}
+                color='inherit'
+                to='/auth/register'
               >
-                <Phone />
-                <Typography sx={{ ml: 1 }}>Phone</Typography>
-              </Button>
+                Login with Phone
+              </Link>
             </Grid>
-          </Grid>
-
-          <Grid
-            container
-            direction='row'
-            justifyContent='end'
-          >
-            <Link
-              component={RouterLink}
-              color='inherit'
-              to='/auth/register'
+            <Grid
+              item
+              xs={12}
+              sm={6}
             >
-              Crear una cuenta
-            </Link>
+              <Link
+                component={RouterLink}
+                color='inherit'
+                to='/auth/register'
+              >
+                Crear una cuenta
+              </Link>
+            </Grid>
           </Grid>
         </Grid>
       </form>
