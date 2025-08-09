@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+react-her-firebase-adminsdk-txj0z-c2025da1e8.json
 
 # Editor directories and files
 .vscode/*
