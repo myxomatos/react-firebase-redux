@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 react-her-firebase-adminsdk-txj0z-c2025da1e8.json
+adminFb.js
+creatFbUser.js
+src/firebase/config.js
 
 # Editor directories and files
 .vscode/*
